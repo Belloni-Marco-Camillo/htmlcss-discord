@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: var(--grey);
   font-family: Whitneybook, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 @font-face {
@@ -15,20 +16,9 @@ body {
   --blue-d: #8ea1e1;
 }
 
-.disclaimer {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: aqua;
-  height: 236px;
-  width: 634px;
-}
-
 #header_site {
   position: relative;
   height: 504px;
-  background-color: red;
   background-image: url(./../img/jumbo.png);
   background-size: cover;
 }
@@ -82,10 +72,172 @@ body {
   right: 0px;
   top: 50%;
   transform: translate(0%, -50%);
-  height: 30px;
-  width: 70px;
-  border-radius: 30%;
+  height: 31px;
+  width: 57px;
+  border-radius: 38%;
   border: transparent;
-  background-color: var(--grey);
+  background-color: white;
   color: var(--dark);
+}
+
+/*fine menu*/
+
+.disclaimer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 236px;
+  width: 634px;
+}
+
+.title-d h2 {
+  color: white;
+  padding: 0px;
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.paragraph-d p {
+  text-align: center;
+  color: white;
+}
+
+.button-d {
+  width: 472px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.propriety-button {
+  height: 45px;
+  border-radius: 100px;
+  padding: 0px 25px 0px 25px;
+  border-style: none;
+}
+
+.b-dx {
+  position: absolute;
+  right: 81px;
+  background-color: var(--dark);
+  color: white;
+}
+
+/*fine header*/
+/*da capire come impostare l'immgagine header*/
+
+section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 622px;
+}
+
+.aside-mag {
+  width: 53%;
+  height: 100%;
+  float: left;
+}
+
+.aside-min {
+  float: left;
+  width: 47%;
+  height: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+.aside-mag img {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.aside-min .aside-text {
+  width: 50%;
+  margin: 0 0 0 auto;
+  padding-top: 120px;
+}
+.aside-text h2 {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.aside-mag-dx {
+  width: 53%;
+  height: 100%;
+}
+
+.aside-min-sx {
+  width: 47%;
+  height: 100%;
+}
+
+.aside-min-sx .aside-text {
+  width: 60%;
+  margin: 0 auto 0 0;
+  padding-top: 120px;
+}
+
+.aside-mag-dx img {
+  position: absolute;
+  top: 50%;
+  transform: translate(40%, -60%);
+}
+
+.final-section>h2 {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  transform: translate(-50%);
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.final-section p {
+    margin: 0;
+    padding: 0;
+  text-align: center;
+}
+
+.final-section > .per-mac {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 180px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+  height: 45px;
+  border-radius: 100px;
+  padding: 0px 25px 0px 25px;
+  border-style: none;
+  background-color: var(--blue-d);
+  color: white;
+}
+
+section:last-child {
+  height: 120px;
+}
+
+section:nth-child(1) {
+  background-color: white;
+  z-index: -1;
+}
+
+section:nth-child(3) {
+  background-color: white;
+}
+
+aside.central{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+/*fine del main*/
+
+footer {
+  height: 300px;
 }
