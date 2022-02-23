@@ -1,0 +1,91 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Whitneybook, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(./../font/whitneybook.otf);
+}
+
+:root {
+  --dark: #23272a;
+  --grey: #f6f6f6;
+  --blue-d: #8ea1e1;
+}
+
+.disclaimer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: aqua;
+  height: 236px;
+  width: 634px;
+}
+
+#header_site {
+  position: relative;
+  height: 504px;
+  background-color: red;
+  background-image: url(./../img/jumbo.png);
+  background-size: cover;
+}
+
+.menu {
+  position: absolute;
+  height: 66px;
+  width: 960px;
+}
+
+.voice-menu {
+  width: 600px;
+  height: 66px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+}
+
+.voice-menu p {
+  display: inline-block;
+  padding-top: 8px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.voice-menu p:nth-child(5) {
+  padding-right: 0;
+}
+
+.voice-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.contain {
+  height: 100%;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.menu img {
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.log-in {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  height: 30px;
+  width: 70px;
+  border-radius: 30%;
+  border: transparent;
+  background-color: var(--grey);
+  color: var(--dark);
+}
