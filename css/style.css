@@ -241,4 +241,36 @@ footer {
   padding-top: 50px;
 }
 
-footer>
+footer h2{
+    color: var(--blue-d);
+}
+
+footer h3{
+    color: var(--blue-d);
+}
+
+.social{
+    width: 25%;
+}
+
+.social img{
+   width: 15px;
+}
+.contain>.social span{
+    color: white;
+ }
+
+
+ .social, .prodotto, .compagnia, .risorse, .norme{
+     float: left;
+     color: white;
+     width: 20%;
+ }
+
+ ul{
+     text-align: left;
+    list-style-type: none;
+ }
+ li{
+     margin-left: -40px;
+ }
